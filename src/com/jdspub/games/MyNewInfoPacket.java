@@ -44,4 +44,5 @@ public class MyNewInfoPacket {
         MyNewInfoPacket att = new MyNewInfoPacket(CompanyPacket.HIT);
         att.companyDetails();
     }
+    
 }

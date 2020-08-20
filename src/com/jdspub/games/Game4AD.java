@@ -669,9 +669,5 @@ public class Game4AD {
 				+ "\n Reactions (d6): 1-2 flee, 3-6 fight";
 	}
 
-
-	
-	
-	
-	
 }
+

@@ -38,5 +38,6 @@ public class PairOfDice {
 			return sum;
 		
 	}
+	
 
 } // end class PairOfDice
