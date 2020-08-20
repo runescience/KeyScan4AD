@@ -176,7 +176,7 @@ public class Game4AD {
 
 	private void exit(int i) {
 		// TODO Auto-generated method stub
-
+		System.out.println("exit from game return code:"+ i);
 	}
 
 	String getMapPiece() {
