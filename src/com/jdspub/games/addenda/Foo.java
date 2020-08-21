@@ -6,4 +6,5 @@ public class Foo {
 		// TODO Auto-generated constructor stub
 	}
 
+	//comment
 }
