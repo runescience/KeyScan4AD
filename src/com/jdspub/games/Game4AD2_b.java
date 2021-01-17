@@ -404,20 +404,20 @@ public class Game4AD2_b {
 		String[] myScrolls = new String[] { "0", "dart lvl2 random char", "posion gas lvl3 all char",
 				"trapdoor lvl4 under character lading", "bear trap lvl4 hitting char leading",
 				"spear coming out of wall lvl 5 two leading chars", "stone blcok lvl 5, last char" };
-		return "Found " + myScrolls[pd.roll()] + " (page 59)";
+		return "Found " + myScrolls[pd.roll()] + " (page 49)";
 	}
 
 	private String getScroll() {
 		// TODO Auto-generated method stub
 		String[] myScrolls = new String[] {"0", "Fireball", "Blessing", "lightening Bolt", "Sleep", "Escape", "Protect" };
-		return "Found " + myScrolls[pd.roll()] + " page 47 & 74";
+		return "Found " + myScrolls[pd.roll()] + " page 49";
 	}
 
 	private String getMagicItem() {
 		// TODO Auto-generated method stub
 		String[] myMagicItem = new String[] { "Wand of Sleep", "Ring of Teleportation", "Fools Gold", "Magic Weapon",
 				"Potion of Healing", "Fireball Staff" };
-		return "Found " + myMagicItem[pd.roll()] + " page 34 & 73";
+		return "Found " + myMagicItem[pd.roll()] + " page 35 & 86";
 	}
 
 	private int getGold(Integer quan) {
@@ -433,16 +433,16 @@ public class Game4AD2_b {
 
 	private String getVermin() {
 		// TODO Auto-generated method stub
-		String[] myScrolls = new String[] { "0", "3d6 rats", "3d6 vampire bats", "2d6 goblin swarmslings",
+		String[] myVerm = new String[] { "0", "3d6 rats", "3d6 vampire bats", "2d6 goblin swarmslings",
 				"d6 giant centepedes", "d6 vampire frogs", "2d6 skeletal rats", "" };
-		return " Found " + myScrolls[pd.roll()] + " on page 35 & 74";
+		return " Found " + myVerm[pd.roll()] + " on page 35 & 87";
 	}
 
 	private String getMinion() {
 		// TODO Auto-generated method stub
-		String[] myScrolls = new String[] { "0", "d6+2 skels or d6 Zombies (50% each)", "d6+3 goblins", "d6 hobgob",
+		String[] getMinion = new String[] { "0", "d6+2 skels or d6 Zombies (50% each)", "d6+3 goblins", "d6 hobgob",
 				"d6+1 orcs", "d3 trolls", "2d6 fungi folk" };
-		return " Found " + myScrolls[pd.roll()] + " on page 74";
+		return " Found " + getMinion[pd.roll()] + " on page 87";
 	}	
 	
 	private String getQuest() {
@@ -479,7 +479,7 @@ public class Game4AD2_b {
 		case 3:
 		case 5:
 		case 6:
-			result = " Found Special event:" + myScrolls[pd.roll()] + " on page 73";
+			result = " Found Special event:" + myScrolls[pd.roll()] + " on page 86";
 
 		case 2:
 			result = " Found Special event: wanderingMonster" + getWanderingMonsters();
@@ -500,7 +500,7 @@ public class Game4AD2_b {
 		// TODO Auto-generated method stub
 		String[] myScrolls = new String[] { "0", "fountain", "Blessed Temple", "Armor", "Cursed altar", "Statue",
 				"Puzzle Room" };
-		return " Found " + myScrolls[pd.roll()] + " on page 72";
+		return " Found " + myScrolls[pd.roll()] + " on page 85";
 	}
 
 	String getSearch(String lastAction) {
@@ -562,19 +562,19 @@ public class Game4AD2_b {
 
 		String[] myScrolls = new String[] { "0", "minotaur", "Iron eater", "chimera", "Catoblepas", "Giant Spider",
 				"invisible gremlins" };
-		return " Found " + myScrolls[pd.roll()] + " on page 75";
+		return " Found " + myScrolls[pd.roll()] + " on page 88";
 	}
 
 	String getBoss(boolean isFinal2) {
 
 		String[] myScrolls = new String[] { "0", "Mummy", "Orc Brute", "Ogre", "Medusa", "Chaos lord", "Small dragon" };
-		return " Found " + myScrolls[pd.roll()] + " on page 75";
+		return " Found " + myScrolls[pd.roll()] + " on page 88";
 	}
 
 	String getDragonsLair() {
 
-		String[] myScrolls = new String[] { "0", "", "", "", "", "", "" };
-		return " Found " + myScrolls[pd.roll()];
+		String[] myScrolls = new String[] { "0", "1", "2", "3", "4", "5", "6" };
+		return "dragon's lair: see boss table. Found " + myScrolls[pd.roll()];
 	}
 
 
