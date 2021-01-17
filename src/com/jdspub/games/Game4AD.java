@@ -56,6 +56,9 @@ public class Game4AD {
 				System.out.println("Thanks for playing! Bye!\n===!\n\n");
 				System.exit(0);
 
+			} else if (containsIgnoreCase("help", action)) {
+				System.out.println("Thanks for playing! Bye!\n===!\n\n");
+				
 			} else if (containsIgnoreCase("getMap", action)) {
 				result = getMapPiece();
 
@@ -72,7 +75,7 @@ public class Game4AD {
 			} else if (containsIgnoreCase("lock", action)) {
 				result = getLock();
 
-			} else if (containsIgnoreCase("lock", action)) {
+			} else if (containsIgnoreCase("hello", action)) {
 				result = getHello();
 
 			} else if (containsIgnoreCase("treasure", action)) {
